@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="CSCaller/CSCaller.csproj" />
+  <Project Path="GatherCallerInfo/GatherCallerInfo.csproj" />
+</Solution>
