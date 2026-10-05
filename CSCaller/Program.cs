@@ -2,6 +2,9 @@
 using System;
 using GatherCallerInfo;
 
-var callerInfo = UsesCallerAttributes.GetCallerInfo();
-// See https://aka.ms/new-console-template for more information
-Console.WriteLine($"Caller info: {callerInfo}");
+var csCallerInfo = GatherCallerInfo.UsesCallerAttributes.GetCallerInfo();
+Console.WriteLine($"CS Caller Info: {csCallerInfo}");
+
+var fsCallerInfo = GatherCallerInfo.FSharp.CallerInfoFSClass.GetCallerInfoNoOptions();
+Console.WriteLine($"FS Caller Info: {fsCallerInfo}");
+
