@@ -1,4 +1,6 @@
 <Solution>
+  <Project Path="Caller.CSharp.FromPackage/Caller.CSharp.FromPackage.csproj" />
+  <Project Path="Caller.FSharp.FromPackage/Caller.FSharp.FromPackage.fsproj" />
   <Project Path="Caller.FSharp/Caller.FSharp.fsproj" />
   <Project Path="CSCaller/CSCaller.csproj" />
   <Project Path="GatherCallerInfo.FSharp/GatherCallerInfo.FSharp.fsproj" />

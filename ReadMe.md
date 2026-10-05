@@ -11,3 +11,7 @@ C# can correctly indentify file and line number across a project boundary.
 Langauge mostly doesn't matter. I can get caller info with 
 - C# calling F# 
 - F# calling C#, but line number maybe doesn't work this way 
+
+
+Q: What about across package boundaries?
+- A: all the previous scenarios behave the same when referenced as a package as they did when referenced as a project
