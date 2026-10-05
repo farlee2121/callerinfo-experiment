@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="GatherCallerInfo.FSharp" Version="1.0.0"/>
-    <PackageReference Include="GatherCallerInfo" Version="1.0.0"/>
+    <PackageReference Include="GatherCallerInfo.FSharp" Version="1.0.1"/>
+    <PackageReference Include="GatherCallerInfo" Version="1.0.1"/>
   </ItemGroup>
 
 </Project>

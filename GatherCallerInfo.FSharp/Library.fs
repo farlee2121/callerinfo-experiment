@@ -26,3 +26,7 @@ type CallerInfoFSClass () =
             filePath = if String.IsNullOrEmpty(path) then None else Some path; 
             lineNumber = if line = 0 then None else Some line
         }
+
+
+module CallerInfoModule = 
+    let getCallerInfo = CallerInfoFSClass.GetCallerInfo
